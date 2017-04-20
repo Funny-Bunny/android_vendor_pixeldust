@@ -28,10 +28,8 @@ PRODUCT_PACKAGES += \
 # Custom Packages
 PRODUCT_PACKAGES += \
     Busybox \
-    KernelAdiutor \
     ThemeInterfacer \
     OmniStyle \
-    QuickSearchBox \
     LockClock
 
 # Inherit arm64 phone gapps gapps

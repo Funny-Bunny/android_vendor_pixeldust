@@ -47,6 +47,6 @@ endif
 PRODUCT_PACKAGES += \
     OmniJaws
 
-# Include Android's 7.2.1 new Battery Usage Alerts
+# Include Android's 7.1.2 new Battery Usage Alerts
 PRODUCT_PACKAGES += \
     Turbo
