@@ -15,7 +15,6 @@
 PRODUCT_PACKAGES += \
     GoogleContacts \
     GoogleDialer \
-    LatinIMEGooglePrebuilt \
     NexusLauncherIcons \
     NexusLauncherPrebuilt \
     NexusWallpapersStubPrebuilt \
