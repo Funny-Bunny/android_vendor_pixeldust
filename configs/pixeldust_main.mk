@@ -29,8 +29,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Busybox \
     ThemeInterfacer \
+    OmniClockOSS \
+    OmniJaws \
     OmniStyle \
-    LockClock
+    LockClock \
+    PixelDustWallpapers \
+    Turbo
 
 # Inherit pixel gapps
 $(call inherit-product-if-exists, vendor/pixeldust/prebuilt/pixel-gapps/pixel-gapps.mk)
