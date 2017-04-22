@@ -29,8 +29,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Busybox \
     ThemeInterfacer \
+    OmniClockOSS \
+    OmniJaws \
     OmniStyle \
-    LockClock
+    LockClock \
+    PixelDustWallpapers \
+    Turbo
 
 # Inherit arm64 phone gapps gapps
 $(call inherit-product-if-exists, vendor/gapps/arm64-phone-gapps.mk)
