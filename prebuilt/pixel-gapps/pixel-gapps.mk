@@ -17,6 +17,7 @@ PRODUCT_PACKAGES += \
     GoogleDialer \
     Photos \
     PrebuiltBugle \
+    LatinIMEGooglePrebuilt \
     NexusLauncherIcons \
     NexusLauncherPrebuilt \
     NexusWallpapersStubPrebuilt \
