@@ -15,6 +15,9 @@
 # Include telephony configuration
 include vendor/pixeldust/configs/pixeldust_phone.mk
 
+# Inherit pixel gapps
+$(call inherit-product-if-exists, vendor/gapps/gapps.mk)
+
 # Inherit AOSP device configuration for bullhead.
 $(call inherit-product, device/lge/bullhead/aosp_bullhead.mk)
 
