@@ -13,6 +13,7 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
+    GoogleCamera \
     GoogleContacts \
     GoogleDialer \
     Photos \
