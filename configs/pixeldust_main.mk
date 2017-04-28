@@ -29,10 +29,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Busybox \
     ThemeInterfacer \
-    OmniClockOSS \
     OmniJaws \
     OmniStyle \
-    LockClock \
     PixelDustWallpapers \
     Turbo
 
