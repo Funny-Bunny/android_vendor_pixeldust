@@ -12,6 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Speed up compiling time
+EXCLUDE_SYSTEMUI_TESTS := true
+
+# Unlock some extra performance
+HWUI_COMPILE_FOR_PERF := true
+
 # Backup Tool
 PRODUCT_COPY_FILES += \
     vendor/pixeldust/prebuilt/bin/backuptool.sh:install/bin/backuptool.sh \
@@ -35,9 +41,6 @@ ADDITIONAL_DEFAULT_PROPERTIES += \
     ro.adb.secure=0 \
     ro.secure=0 \
     persist.service.adb.enable=1
-
-# Speed up compiling time
-EXCLUDE_SYSTEMUI_TESTS := true
 
 # Tell Substratum that this ROM has full support
 PRODUCT_PROPERTY_OVERRIDES += \
