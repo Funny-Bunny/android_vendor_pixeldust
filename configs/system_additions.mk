@@ -15,9 +15,6 @@
 # Speed up compiling time
 EXCLUDE_SYSTEMUI_TESTS := true
 
-# Unlock some extra performance
-HWUI_COMPILE_FOR_PERF := true
-
 # Backup Tool
 PRODUCT_COPY_FILES += \
     vendor/pixeldust/prebuilt/bin/backuptool.sh:install/bin/backuptool.sh \
